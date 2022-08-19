@@ -44,3 +44,13 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Preparando o Enzyme
+## Instale as dependências com:
+npm i enzyme enzyme-adapter-react-(numero da versão do react) react-test-renderer
+
+## Crie um arquivo de configuração para o Enzyme chamado "src/setupTests.js".
+
+#### import { configure } from 'enzyme';
+#### import Adapter from 'enzyme-adapter-react-16';
+#### configure({ adapter: new Adapter() });
